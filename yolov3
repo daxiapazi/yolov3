@@ -1,0 +1,15 @@
+eval_utils  将网络得到的预测值解析成 网格大小 坐标 和类别  每个框也只取类别值最大的类别
+
+extract_labels 从xml文件中解析得到 标注的labels 坐标 边框等
+
+reader 得到标注文件的filename 将其导入extract_labels 可以得到标注信息
+
+select-things 选择得到信息的层 以及 model文件
+
+eval 评估网络
+
+train 训练 net 网络 
+
+
+
+
